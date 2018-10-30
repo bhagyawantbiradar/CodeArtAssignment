@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:padding="4dp">
+
+    <RelativeLayout
+        android:id="@+id/relative_poster_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_above="@+id/text_date"
+            android:id="@+id/image_thumbnail"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorImageBackground"
+            android:contentDescription="@string/movie_image"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/faint_text"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/relative_poster_date"
+        android:layout_toRightOf="@+id/relative_poster_date"
+        android:layout_toLeftOf="@+id/relative_rating"
+        android:layout_toStartOf="@+id/relative_rating"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_text"
+        tools:ignore="RtlHardcoded" />
+
+    <RelativeLayout
+        android:id="@+id/relative_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:padding="8dp"
+        android:layout_alignParentRight="true"
+        tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:id="@+id/image_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/play_icon_image"
+            android:src="@drawable/ic_play_arrow_black_24dp" />
+
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/text_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/faint_text"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</RelativeLayout>

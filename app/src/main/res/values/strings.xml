@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Code Art Assignment</string>
+    <string name="action_info">Info</string>
+    <string name="movie_image">Movie Image</string>
+    <string name="play_icon_image">Play icon image</string>
+    <string name="upcoming_movies">Upcoming Movies</string>
+    <string name="multiple_movie_images">multiple movie images</string>
+    <string name="menu_refresh">Refresh Menu</string>
+    <string name="please_check_internet_connection_and_try_again_later">Please check your internet connection and try again later.</string>
+    <string name="developed_by">Developed By</string>
+    <string name="bhagyawant_biradar">Bhagyawant Biradar</string>
+    <string name="information">Information</string>
+</resources>
