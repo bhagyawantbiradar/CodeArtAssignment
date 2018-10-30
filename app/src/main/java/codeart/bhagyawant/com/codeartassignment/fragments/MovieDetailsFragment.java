@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,7 +11,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
-
 
 import com.squareup.picasso.Picasso;
 import com.synnapps.carouselview.CarouselView;
@@ -28,7 +26,6 @@ import codeart.bhagyawant.com.codeartassignment.model.Backdrop;
 import codeart.bhagyawant.com.codeartassignment.model.MovieImage;
 import codeart.bhagyawant.com.codeartassignment.model.Result;
 import codeart.bhagyawant.com.codeartassignment.utils.Constants;
-import me.relex.circleindicator.CircleIndicator;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
